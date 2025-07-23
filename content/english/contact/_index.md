@@ -74,7 +74,7 @@ We are a local family and know the region like the back of our hand. We are happ
 5. **An der Mainfähre** - Parking directly at the house
 
 ### By Public Transport
-1. **Würzburg Station** (20 km away)
+1. **Würzburg Station** (28 km away)
 2. **Bus or taxi** to Wipfeld
 3. We are happy to pick you up (by arrangement)
 

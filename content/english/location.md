@@ -38,13 +38,13 @@ Wipfeld is known for its spectacular stork's nest, which you can observe directl
 
 ### Excursion Destinations
 
-#### Würzburg (approx. 20 km)
+#### Würzburg (approx. 28 km)
 - UNESCO World Heritage Residence
 - Marienberg Fortress
 - Old Main Bridge
 - Historic old town
 
-#### Schweinfurt (approx. 25 km)
+#### Schweinfurt (approx. 17 km)
 - Museum Georg Schäfer
 - City gallery
 - Main waterfront promenade
@@ -64,14 +64,14 @@ Wipfeld is known for its spectacular stork's nest, which you can observe directl
 ### By Car
 - **A3**: 10 minutes
 - **A7**: 15 minutes
-- **Würzburg**: 20 minutes
-- **Schweinfurt**: 25 minutes
+- **Würzburg**: 30 minutes
+- **Schweinfurt**: 20 minutes
 - **Bamberg**: 45 minutes
 - **Nuremberg**: 1 hour
 
 ### Public Transport
-- **Schweinfurt Station**: 25 km
-- **Würzburg Station**: 20 km
+- **Schweinfurt Station**: 17 km
+- **Würzburg Station**: 28 km
 - **Bus connections**: Regular connections
 
 ### Parking

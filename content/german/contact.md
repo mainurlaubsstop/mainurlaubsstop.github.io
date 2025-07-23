@@ -74,7 +74,7 @@ Wir sind eine einheimische Familie und kennen die Region wie unsere Westentasche
 5. **An der Mainfähre** - Parkplatz direkt am Haus
 
 ### Mit öffentlichen Verkehrsmitteln
-1. **Bahnhof Würzburg** (20 km entfernt)
+1. **Bahnhof Würzburg** (28 km entfernt)
 2. **Bus oder Taxi** nach Wipfeld
 3. Gerne holen wir Sie auch ab (nach Absprache)
 

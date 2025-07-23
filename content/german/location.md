@@ -38,13 +38,13 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
 
 ### Ausflugsziele
 
-#### Würzburg (ca. 20 km)
+#### Würzburg (ca. 28 km)
 - UNESCO-Welterbe Residenz
 - Festung Marienberg
 - Alte Mainbrücke
 - Historische Altstadt
 
-#### Schweinfurt (ca. 25 km)
+#### Schweinfurt (ca. 17 km)
 - Museum Georg Schäfer
 - Stadtgalerie
 - Mainufer-Promenade
@@ -64,14 +64,14 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
 ### Mit dem Auto
 - **A3**: 10 Minuten
 - **A7**: 15 Minuten
-- **Würzburg**: 20 Minuten
-- **Schweinfurt**: 25 Minuten
+- **Würzburg**: 30 Minuten
+- **Schweinfurt**: 20 Minuten
 - **Bamberg**: 45 Minuten
 - **Nürnberg**: 1 Stunde
 
 ### Öffentliche Verkehrsmittel
-- **Bahnhof Schweinfurt**: 25 km
-- **Bahnhof Würzburg**: 20 km
+- **Bahnhof Schweinfurt**: 17 km
+- **Bahnhof Würzburg**: 28 km
 - **Busverbindungen**: Regelmäßige Verbindungen
 
 ### Parken
