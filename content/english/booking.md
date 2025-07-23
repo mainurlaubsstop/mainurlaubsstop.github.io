@@ -13,21 +13,35 @@ Book your dream vacation in our cozy holiday apartment in Wipfeld on the Main!
 ## Prices
 
 ### Overnight Prices
-- **2 persons**: €75 per night
+- **2 persons**: €85 per night
+- **1 person**: €80 per night
 - **Minimum stay**: 2 nights
-- **Weekly price**: €450 (7 nights)
+- **Weekly price**: €560 (7 nights, 2 persons)
 - **Final cleaning**: Included
 - **Bed linen & towels**: Included
+
+### Additional Services
+- **Children's equipment**: Free (travel cot, high chair)
+- **Parking**: Free
+- **E-car charging**: According to consumption
+- **Pets**: Free (by arrangement)
 
 ### Seasonal Prices
 
 #### High Season (June - September)
-- **Per night**: €85
-- **Weekly price**: €550
+- **2 persons**: €95 per night
+- **1 person**: €90 per night
+- **Weekly price**: €630 (7 nights, 2 persons)
 
-#### Low Season (October - May)
-- **Per night**: €75
-- **Weekly price**: €450
+#### Low Season (October - April)
+- **2 persons**: €85 per night
+- **1 person**: €80 per night
+- **Weekly price**: €560 (7 nights, 2 persons)
+
+#### Holidays & Wine Festivals (May - October)
+- **2 persons**: €105 per night
+- **1 person**: €100 per night
+- **Minimum stay**: 3 nights
 
 ## Booking Process
 
@@ -49,6 +63,22 @@ You will receive a booking confirmation from us with:
 - **Down payment**: 30% of total price
 - **Final payment**: Upon arrival or in advance by bank transfer
 - **Cancellation**: Free of charge up to 14 days before arrival
+
+### 4. Arrival
+- **Check-in**: From 3:00 PM
+- **Check-out**: Until 10:00 AM
+- **Key handover**: Personal or key safe
+
+## Frequently Asked Questions
+
+### Are pets allowed?
+Yes, pets are welcome free of charge (by arrangement).
+
+### Is there WiFi?
+Yes, free WiFi is available.
+
+### Can I charge my e-car?
+Yes, a charging station is available. Billing according to consumption.
 
 ## Contact for Bookings
 

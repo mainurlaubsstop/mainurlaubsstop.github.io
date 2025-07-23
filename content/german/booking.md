@@ -13,9 +13,10 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 ## Preise
 
 ### Übernachtungspreise
-- **2 Personen**: 75€ pro Nacht
+- **2 Personen**: 85€ pro Nacht
+- **1 Person**: 80€ pro Nacht
 - **Mindestaufenthalt**: 2 Nächte
-- **Wochenpreis**: 450€ (7 Nächte)
+- **Wochenpreis**: 560€ (7 Nächte, 2 Personen)
 - **Endreinigung**: Inklusive
 - **Bettwäsche & Handtücher**: Inklusive
 
@@ -23,20 +24,23 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 - **Kinderausstattung**: Kostenlos (Reisebett, Hochstuhl)
 - **Parkplatz**: Kostenlos
 - **E-Auto Laden**: Nach Verbrauch
-- **Haustiere**: Nach Absprache (10€/Nacht)
+- **Haustiere**: Kostenlos (nach Absprache)
 
 ### Saisonpreise
 
 #### Hauptsaison (Juni - September)
-- **Pro Nacht**: 85€
-- **Wochenpreis**: 550€
+- **2 Personen**: 95€ pro Nacht
+- **1 Person**: 90€ pro Nacht
+- **Wochenpreis**: 630€ (7 Nächte, 2 Personen)
 
-#### Nebensaison (Oktober - Mai)
-- **Pro Nacht**: 75€
-- **Wochenpreis**: 450€
+#### Nebensaison (Oktober - April)
+- **2 Personen**: 85€ pro Nacht
+- **1 Person**: 80€ pro Nacht
+- **Wochenpreis**: 560€ (7 Nächte, 2 Personen)
 
-#### Feiertage & Weinfeste
-- **Pro Nacht**: 95€
+#### Feiertage & Weinfeste (Mai - Oktober)
+- **2 Personen**: 105€ pro Nacht
+- **1 Person**: 100€ pro Nacht
 - **Mindestaufenthalt**: 3 Nächte
 
 ## Buchungsablauf
@@ -62,7 +66,7 @@ Sie erhalten von uns eine Buchungsbestätigung mit:
 
 ### 4. Anreise
 - **Check-in**: Ab 15:00 Uhr
-- **Check-out**: Bis 11:00 Uhr
+- **Check-out**: Bis 10:00 Uhr
 - **Schlüsselübergabe**: Persönlich oder Schlüsselsafe
 
 ## Buchungskonditionen
@@ -124,7 +128,7 @@ Ja, kostenloses WLAN ist verfügbar.
 Ja, eine Ladestation ist vorhanden. Abrechnung nach Verbrauch.
 
 ### Sind Haustiere erlaubt?
-Nach Absprache ja, gegen einen Aufpreis von 10€ pro Nacht.
+Ja, Haustiere sind nach Absprache kostenlos willkommen.
 
 ### Gibt es Einkaufsmöglichkeiten?
 Bäckerei und Metzgerei sind fußläufig erreichbar, Supermarkt 5 Minuten mit dem Auto.
