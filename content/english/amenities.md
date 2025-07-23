@@ -14,19 +14,23 @@ Our holiday apartment is equipped with everything you need for a comfortable sta
 
 ### Kitchen
 - Fully equipped fitted kitchen
-- Refrigerator with freezer compartment
+- Refrigerator (without freezer compartment)
 - Ceramic hob with 4 cooking zones
 - Oven
 - Microwave
-- Coffee machine (PAD system, pads available on-site)
-- Kettle
-- Toaster
+- Coffee machine (capsule system)
 - Complete dishes and cutlery
 - Pots, pans and kitchen utensils
 
+### Minibar
+- Wine from the region
+- Butter, rolls, honey and jam
+- Price list available in the apartment
+
 ### Living Area
-- Cozy seating area
+- Cozy seating area for 2 people
 - Dining table for 4 people
+- Radio
 - Free WiFi
 - Heating
 - Air conditioning (New!)
@@ -81,17 +85,14 @@ Our holiday apartment is equipped with everything you need for a comfortable sta
 - Parking
 - Basic kitchen equipment
 
+### Additional Amenities
+- Games for children and adults
+- Bicycle garage
+- Pets welcome (including towels for wet paws)
+
 ### On Request
 - Children's equipment (free)
 - Additional cleaning during stay
-
-## Shopping Nearby
-
-### MainStop Vending Machine
-- **Location**: Ground floor of the building
-- **Available 24/7**: Drinks, snacks, grill and meat products
-- **Coffee pads**: Available for purchase
-- **Convenient**: No need to go far for essentials
 
 ## Booking & Contact
 

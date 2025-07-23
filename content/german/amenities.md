@@ -14,19 +14,23 @@ Unsere Ferienwohnung ist mit allem ausgestattet, was Sie für einen komfortablen
 
 ### Küche
 - Voll ausgestattete Einbauküche
-- Kühlschrank mit Gefrierfach
+- Kühlschrank (ohne Gefrierfach)
 - Ceranfeld mit 4 Kochplatten
 - Backofen
 - Mikrowelle
-- Kaffeemaschine (PAD-System, Pads vor Ort erhältlich)
-- Wasserkocher
-- Toaster
+- Kaffeemaschine (Kapselsystem)
 - Komplettes Geschirr und Besteck
 - Töpfe, Pfannen und Küchenhelfer
 
+### Minibar
+- Wein aus der Region
+- Butter, Brötchen, Honig und Marmelade
+- Preisliste liegt in der Ferienwohnung bereit
+
 ### Wohnbereich
-- Gemütliche Sitzecke
+- Gemütliche Sitzecke für 2 Personen
 - Esstisch für 4 Personen
+- Radio
 - Kostenloses WLAN
 - Heizung
 - Klimaanlage (Neu!)
@@ -80,6 +84,11 @@ Unsere Ferienwohnung ist mit allem ausgestattet, was Sie für einen komfortablen
 - Kostenloses WLAN
 - Parkplatz
 - Grundausstattung Küche
+
+### Zusätzliche Ausstattung
+- Spiele für Kinder und Erwachsene
+- Garage für Fahrräder
+- Haustiere willkommen (inkl. Handtücher für nasse Pfoten)
 
 ### Auf Anfrage
 - Kinderausstattung (kostenlos)
