@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://mainurlaubsstop.github.io"
+baseURL = "https://mainurlaubsstop.de"
 # The name of this wonderful theme (optional).
 theme = ["github.com/gethugothemes/hugo-modules/components/preloader", "github.com/gethugothemes/hugo-modules/components/social-share", "github.com/gethugothemes/hugo-modules/components/cookie-consent", "github.com/gethugothemes/hugo-modules/components/custom-script", "github.com/gethugothemes/hugo-modules/components/announcement", "github.com/gethugothemes/hugo-modules/accordion", "github.com/gethugothemes/hugo-modules/adsense", "github.com/gethugothemes/hugo-modules/components/render-link", "github.com/gethugothemes/hugo-modules/components/crisp-chat", "github.com/gethugothemes/hugo-modules/gzip-caching", "github.com/gethugothemes/hugo-modules/pwa", "github.com/gethugothemes/hugo-modules/components/cookie-consent", "github.com/gethugothemes/hugo-modules/components/custom-script", "github.com/gethugothemes/hugo-modules/seo-tools/basic-seo", "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications", "github.com/gethugothemes/hugo-modules/search", "github.com/gethugothemes/hugo-modules/images"]
 # Site title
