@@ -1,0 +1,16 @@
+{
+  "name": "MainUrlaubsStop - Ferienwohnung in Wipfeld",
+  "short_name": "MainUrlaubsStop",
+  "description": "Ihre gemütliche Ferienwohnung in Wipfeld am Main",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
