@@ -29,6 +29,7 @@ Our holiday apartment is equipped with everything you need for a comfortable sta
 - Dining table for 4 people
 - Free WiFi
 - Heating
+- Air conditioning (New!)
 
 ### Bedroom
 - Comfortable double bed (180x200 cm)

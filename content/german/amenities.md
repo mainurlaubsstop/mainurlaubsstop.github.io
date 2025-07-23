@@ -29,6 +29,7 @@ Unsere Ferienwohnung ist mit allem ausgestattet, was Sie für einen komfortablen
 - Esstisch für 4 Personen
 - Kostenloses WLAN
 - Heizung
+- Klimaanlage (Neu!)
 
 ### Schlafbereich
 - Komfortables Doppelbett (180x200 cm)

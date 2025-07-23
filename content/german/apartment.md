@@ -50,6 +50,7 @@ Willkommen in unserer wunderschön eingerichteten Ferienwohnung in Wipfeld am Ma
 - **Bad**: Mit Dusche und modernen Sanitäranlagen
 - **TV**: Flachbildfernseher im Schlafbereich
 - **Internet**: Kostenloses WLAN
+- **Klimaanlage**: Neu installiert für optimalen Komfort
 - **Terrasse**: Mit Gartenmöbeln und herrlichem Ausblick
 
 ## Jetzt buchen

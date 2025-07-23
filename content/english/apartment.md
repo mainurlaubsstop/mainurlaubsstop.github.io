@@ -36,6 +36,7 @@ Welcome to our beautifully furnished holiday apartment in Wipfeld on the Main. T
 - **Bathroom**: With shower and modern sanitary facilities
 - **TV**: Flat screen TV in bedroom
 - **Internet**: Free WiFi
+- **Air conditioning**: Newly installed for optimal comfort
 - **Terrace**: With garden furniture and magnificent view
 
 ## Book Now
