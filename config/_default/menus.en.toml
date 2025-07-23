@@ -33,18 +33,18 @@ weight = 6
 
 # footer menu
 [[footer]]
-name = "Imprint"
-url = "/imprint"
+name = "Legal Notice"
+url = "/pages/legal-notice"
 weight = 1
 
 [[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
+url = "/pages/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Terms"
-url = "/terms"
+name = "Terms & Conditions"
+url = "/pages/terms-conditions"
 weight = 3
 
 [[footer]]
