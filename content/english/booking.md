@@ -13,10 +13,10 @@ Book your dream vacation in our cozy holiday apartment in Wipfeld on the Main!
 ## Prices
 
 ### Overnight Prices
-- **2 persons**: €85 per night
-- **1 person**: €80 per night
+- **2 persons**: €95 per night
+- **1 person**: €90 per night
 - **Minimum stay**: 2 nights
-- **Weekly price**: €560 (7 nights, 2 persons)
+- **Weekly price**: €630 (7 nights, 2 persons)
 - **Final cleaning**: Included
 - **Bed linen & towels**: Included
 
@@ -26,22 +26,15 @@ Book your dream vacation in our cozy holiday apartment in Wipfeld on the Main!
 - **E-car charging**: According to consumption
 - **Pets**: Free (by arrangement)
 
-### Seasonal Prices
+### Year-Round Pricing
 
-#### High Season (June - September)
+**Our prices are the same all year - no seasonal surcharges!**
+
 - **2 persons**: €95 per night
 - **1 person**: €90 per night
 - **Weekly price**: €630 (7 nights, 2 persons)
-
-#### Low Season (October - April)
-- **2 persons**: €85 per night
-- **1 person**: €80 per night
-- **Weekly price**: €560 (7 nights, 2 persons)
-
-#### Holidays & Wine Festivals (May - October)
-- **2 persons**: €105 per night
-- **1 person**: €100 per night
-- **Minimum stay**: 3 nights
+- **Minimum stay**: 2 nights
+- **Even during holidays and wine festivals**: Same prices
 
 ## Booking Process
 

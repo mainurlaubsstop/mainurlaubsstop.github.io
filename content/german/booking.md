@@ -13,10 +13,10 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 ## Preise
 
 ### Übernachtungspreise
-- **2 Personen**: 85€ pro Nacht
-- **1 Person**: 80€ pro Nacht
+- **2 Personen**: 95€ pro Nacht
+- **1 Person**: 90€ pro Nacht
 - **Mindestaufenthalt**: 2 Nächte
-- **Wochenpreis**: 560€ (7 Nächte, 2 Personen)
+- **Wochenpreis**: 630€ (7 Nächte, 2 Personen)
 - **Endreinigung**: Inklusive
 - **Bettwäsche & Handtücher**: Inklusive
 
@@ -26,22 +26,15 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 - **E-Auto Laden**: Nach Verbrauch
 - **Haustiere**: Kostenlos (nach Absprache)
 
-### Saisonpreise
+### Ganzjährige Preise
 
-#### Hauptsaison (Juni - September)
+**Unsere Preise gelten das ganze Jahr über - keine Saisonaufschläge!**
+
 - **2 Personen**: 95€ pro Nacht
 - **1 Person**: 90€ pro Nacht
 - **Wochenpreis**: 630€ (7 Nächte, 2 Personen)
-
-#### Nebensaison (Oktober - April)
-- **2 Personen**: 85€ pro Nacht
-- **1 Person**: 80€ pro Nacht
-- **Wochenpreis**: 560€ (7 Nächte, 2 Personen)
-
-#### Feiertage & Weinfeste (Mai - Oktober)
-- **2 Personen**: 105€ pro Nacht
-- **1 Person**: 100€ pro Nacht
-- **Mindestaufenthalt**: 3 Nächte
+- **Mindestaufenthalt**: 2 Nächte
+- **Auch an Feiertagen und während der Weinfeste**: Gleiche Preise
 
 ## Buchungsablauf
 
@@ -92,7 +85,8 @@ Sie erhalten von uns eine Buchungsbestätigung mit:
 *Für aktuelle Verfügbarkeiten kontaktieren Sie uns bitte direkt.*
 
 ### Besonders beliebte Zeiten
-- **Weinfeste** (September/Oktober)
+*Rechtzeitige Buchung empfohlen*
+- **Weinfeste** (Mai/September/Oktober)
 - **Sommerferien** (Juli/August)
 - **Weihnachtszeit** (Dezember)
 - **Ostern** (März/April)
