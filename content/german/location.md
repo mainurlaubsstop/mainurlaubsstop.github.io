@@ -35,7 +35,6 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
 - **Mainradweg**: Direkt vor der Haustür
 - **Weinwanderwege**: Durch die Rebhänge
 - **Naturschutzgebiete**: Für Naturliebhaber
-- **Fahrradverleih**: Im Ort verfügbar
 
 ### Ausflugsziele
 

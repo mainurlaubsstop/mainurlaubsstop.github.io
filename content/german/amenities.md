@@ -84,8 +84,6 @@ Unsere Ferienwohnung ist mit allem ausgestattet, was Sie für einen komfortablen
 ### Auf Anfrage
 - Kinderausstattung (kostenlos)
 - Zusätzliche Reinigung während des Aufenthalts
-- Einkaufsservice
-- Fahrradverleih in der Nähe
 
 ## Buchung & Kontakt
 

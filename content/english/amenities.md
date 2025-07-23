@@ -84,8 +84,6 @@ Our holiday apartment is equipped with everything you need for a comfortable sta
 ### On Request
 - Children's equipment (free)
 - Additional cleaning during stay
-- Shopping service
-- Bicycle rental nearby
 
 ## Shopping Nearby
 

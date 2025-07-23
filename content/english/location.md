@@ -35,7 +35,6 @@ Wipfeld is known for its spectacular stork's nest, which you can observe directl
 - **Main Cycle Path**: Right at your doorstep
 - **Wine hiking trails**: Through the vineyards
 - **Nature reserves**: For nature lovers
-- **Bicycle rental**: Available in the village
 
 ### Excursion Destinations
 
