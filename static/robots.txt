@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mainurlaubsstop.github.io/sitemap.xml

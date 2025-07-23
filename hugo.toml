@@ -1,0 +1,50 @@
+######################## default configuration ####################
+# The base URL of your site (required). This will be prepended to all relative URLs.
+baseURL = "https://mainurlaubsstop.github.io"
+# The name of this wonderful theme (optional).
+theme = ["github.com/gethugothemes/hugo-modules/components/preloader", "github.com/gethugothemes/hugo-modules/components/social-share", "github.com/gethugothemes/hugo-modules/components/cookie-consent", "github.com/gethugothemes/hugo-modules/components/custom-script", "github.com/gethugothemes/hugo-modules/components/announcement", "github.com/gethugothemes/hugo-modules/accordion", "github.com/gethugothemes/hugo-modules/adsense", "github.com/gethugothemes/hugo-modules/components/render-link", "github.com/gethugothemes/hugo-modules/components/crisp-chat", "github.com/gethugothemes/hugo-modules/gzip-caching", "github.com/gethugothemes/hugo-modules/pwa", "github.com/gethugothemes/hugo-modules/components/cookie-consent", "github.com/gethugothemes/hugo-modules/components/custom-script", "github.com/gethugothemes/hugo-modules/seo-tools/basic-seo", "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications", "github.com/gethugothemes/hugo-modules/search", "github.com/gethugothemes/hugo-modules/images"]
+# Site title
+title = "MainUrlaubsStop - Ferienwohnung in Wipfeld am Main"
+# The default content language (required).
+languageCode = "de-de"
+# The default content language that corresponds to the root `/` content directory (required).
+defaultContentLanguage = "de"
+# Whether to add page bundles to sitemap or not.
+enableRobotsTXT = true
+# Whether to add `noindex` meta tag to all pages.
+enableGitInfo = false
+# Control `index.html` creation.
+# Default is false.
+disableHugoGeneratorInject = false
+# Disable creation of `alias` redirects.
+# Default is false (redirects are created).
+disableAliases = false
+# Disable lower case URLs.
+# Default is false.
+disablePathToLower = false
+# Enable `.GitInfo` object for each page (if the Hugo site is versioned by Git).
+# Default is false.
+# Enable generation of `robots.txt` file.
+# Default is false.
+# When enabled, Hugo will apply no layout and create no pages for head alias targets configured in front matter.
+# Default is false.
+enableEmoji = true
+
+# Image processing configuration.
+[imaging]
+resampleFilter = "Lanczos"
+quality = 90
+anchor = "smart" # Anchor for cropping. Options include Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+########################## Permalinks ############################
+[permalinks.page]
+posts = "/:sections[1:]/:title/"

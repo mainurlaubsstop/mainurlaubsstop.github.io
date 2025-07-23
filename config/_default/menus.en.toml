@@ -1,0 +1,53 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Apartment"
+url = "/apartment"
+weight = 2
+
+[[main]]
+name = "Amenities"
+url = "/amenities"
+weight = 3
+
+[[main]]
+name = "Location"
+url = "/location"
+weight = 4
+
+[[main]]
+name = "Booking"
+url = "/booking"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "Imprint"
+url = "/imprint"
+weight = 1
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 2
+
+[[footer]]
+name = "Terms"
+url = "/terms"
+weight = 3
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 4

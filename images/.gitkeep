@@ -1,0 +1,10 @@
+# Platzhalter für Bilder
+# Laden Sie Ihre eigenen Bilder der Ferienwohnung hier hoch:
+# - apartment/: Bilder der Wohnung (Schlafzimmer, Bad, Küche)
+# - gallery/: Galerie-Bilder für die Hauptseite
+# - location/: Bilder der Umgebung und Lage
+
+# Empfohlene Bildgrößen:
+# - Hauptbild (Hero): 1920x1080px
+# - Galerie: 1280x720px
+# - Thumbnails: 400x300px

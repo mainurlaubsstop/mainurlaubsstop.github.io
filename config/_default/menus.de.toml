@@ -1,0 +1,53 @@
+############# German navigation ##############
+
+# main menu
+[[main]]
+name = "Start"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Wohnung"
+url = "/apartment"
+weight = 2
+
+[[main]]
+name = "Ausstattung"
+url = "/amenities"
+weight = 3
+
+[[main]]
+name = "Lage"
+url = "/location"
+weight = 4
+
+[[main]]
+name = "Buchen"
+url = "/booking"
+weight = 5
+
+[[main]]
+name = "Kontakt"
+url = "/contact"
+weight = 6
+
+# footer menu
+[[footer]]
+name = "Impressum"
+url = "/impressum"
+weight = 1
+
+[[footer]]
+name = "Datenschutz"
+url = "/datenschutz"
+weight = 2
+
+[[footer]]
+name = "AGB"
+url = "/agb"
+weight = 3
+
+[[footer]]
+name = "Kontakt"
+url = "/contact"
+weight = 4
