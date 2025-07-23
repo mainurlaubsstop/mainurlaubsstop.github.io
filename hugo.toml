@@ -30,6 +30,11 @@ disablePathToLower = false
 # Default is false.
 enableEmoji = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Image processing configuration.
 [imaging]
 resampleFilter = "Lanczos"
