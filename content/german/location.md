@@ -90,34 +90,40 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
 - **Supermarkt**: 5 Minuten mit dem Auto
 - **Wochenmarkt**: Samstags in Volkach
 
-### Restaurants & Gasthäuser
+### Restaurants
 
 #### In Wipfeld
-- **Gasthof zum Storchen**: Traditionelle fränkische Küche
-- **Weinstube Wipfeld**: Lokale Weine und regionale Spezialitäten
+- **Restaurant Mainterrassen (bei Dimi)**: Griechische und internationale Küche direkt am Main
+  - *Obereisenheimer Str. 15, Tel: 09384/331*
+  - *Idyllische Lage mit Mainblick, #1 Restaurant in Wipfeld*
+- **Anker-Stube**: Deutsche und fränkische Küche
+  - *Mainstr. 3, Tel: 09384/903790*
+  - *Familienunternehmen mit eigener Metzgerei*
 
 #### In Obereisenheim (5 km)
-- **Gasthof Zur Krone**: Fränkische Küche und Gastlichkeit
-- **Restaurant Mainblick**: Mit Terrasse direkt am Main
+- **Gasthof Hotel Rose**: Fränkische Küche in familiärer Atmosphäre am Marktplatz
+  - *Öffnungszeiten: Mo, Di, Mi 17:00-21:30, Fr-Sa 17:00-22:00*
+- **Zum Kutscher**: Regionale Küche ohne Fertigprodukte
 
 #### In Volkach (15 km)
-- **Zur Schwane**: Gehobene fränkische Küche
-- **Gasthof Bären**: Traditionelles Gasthaus im Stadtkern
-- **Restaurant Backöfele**: Gemütliche Atmosphäre in der Altstadt
-- **Weinstube am Marktplatz**: Lokale Weine und kleine Gerichte
+- **Hinterhöfle**: Wein, Biergarten & mehr im Herzen der Altstadt
+  - *Modernes Konzept mit Glaspavillon im historischen Innenhof*
+- **Romantik Hotel Zur Schwane**: Gehobene fränkische Küche
+  - *Restaurant Schwane 1404 unter Sternekoch Hendrik Friedrich*
+  - *Restaurant Weinstock (1 Michelin-Stern seit 2020)*
+
+#### In Garstadt (12 km)
+- **Gasthaus "Zum Schiff"**: Historisches Gasthaus aus dem 17. Jahrhundert
+  - *Dorfstr. 38, Bergrheinfeld-Garstadt*
+  - *Bekannt für Entenessen und fränkische Küche direkt am Main*
 
 ### Weingüter in der Region
 
 #### Wipfeld & Umgebung
-- **Weingut Lother**: Familienbetrieb mit exzellenten Frankenweinen
-- **Weingut Schmitt**: Traditioneller Weinbau seit Generationen
-- **Winzergenossenschaft Wipfeld**: Gemeinschaftskellerei der Region
-
-#### Volkach & Mainschleife
-- **Weingut Divino**: Moderne Vinifikation, historische Wurzeln
-- **Weingut Dahms**: Bioweine aus der Mainschleife
-- **Weingut Glaser-Himmelstoss**: Prämierte Weine aus Nordheim
-- **Weingut Zehnthof Luckert**: Traditionsbetrieb in Sulzfeld
+- **Weingut Lother**: Familienbetrieb in 3. Generation mit über 600 Auszeichnungen
+  - *Birkenstr. 3, Tel: 09384/8802041*
+  - *5x Ehrenpreis des Landkreises für besten Wein des Jahres*
+  - *Website: weingut-lother.de*
 
 #### Weinproben & Führungen
 - **Weinbergswanderungen**: Geführte Touren durch die Rebhänge

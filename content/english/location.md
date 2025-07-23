@@ -90,34 +90,40 @@ Wipfeld is known for its spectacular stork's nest, which you can observe directl
 - **Supermarket**: 5 minutes by car
 - **Weekly market**: Saturdays in Volkach
 
-### Restaurants & Inns
+### Restaurants
 
 #### In Wipfeld
-- **Gasthof zum Storchen**: Traditional Franconian cuisine
-- **Weinstube Wipfeld**: Local wines and regional specialties
+- **Restaurant Mainterrassen (bei Dimi)**: Greek and international cuisine directly on the Main
+  - *Obereisenheimer Str. 15, Tel: 09384/331*
+  - *Idyllic location with Main river view, #1 restaurant in Wipfeld*
+- **Anker-Stube**: German and Franconian cuisine
+  - *Mainstr. 3, Tel: 09384/903790*
+  - *Family business with own butcher shop*
 
 #### In Obereisenheim (5 km)
-- **Gasthof Zur Krone**: Franconian cuisine and hospitality
-- **Restaurant Mainblick**: With terrace directly on the Main
+- **Gasthof Hotel Rose**: Franconian cuisine in a family atmosphere at the market square
+  - *Opening hours: Mon, Tue, Wed 5:00-9:30 PM, Fri-Sat 5:00-10:00 PM*
+- **Zum Kutscher**: Regional cuisine without pre-made products
 
 #### In Volkach (15 km)
-- **Zur Schwane**: Upscale Franconian cuisine
-- **Gasthof Bären**: Traditional inn in the city center
-- **Restaurant Backöfele**: Cozy atmosphere in the old town
-- **Weinstube am Marktplatz**: Local wines and small dishes
+- **Hinterhöfle**: Wine, beer garden & more in the heart of the old town
+  - *Modern concept with glass pavilion in historic courtyard*
+- **Romantik Hotel Zur Schwane**: Upscale Franconian cuisine
+  - *Restaurant Schwane 1404 under star chef Hendrik Friedrich*
+  - *Restaurant Weinstock (1 Michelin star since 2020)*
+
+#### In Garstadt (12 km)
+- **Gasthaus "Zum Schiff"**: Historic inn from the 17th century
+  - *Dorfstr. 38, Bergrheinfeld-Garstadt*
+  - *Famous for duck dinners and Franconian cuisine directly on the Main*
 
 ### Wineries in the Region
 
 #### Wipfeld & Surroundings
-- **Weingut Lother**: Family business with excellent Franconian wines
-- **Weingut Schmitt**: Traditional winemaking for generations
-- **Winzergenossenschaft Wipfeld**: Community winery of the region
-
-#### Volkach & Main Loop
-- **Weingut Divino**: Modern vinification, historic roots
-- **Weingut Dahms**: Organic wines from the Main loop
-- **Weingut Glaser-Himmelstoss**: Award-winning wines from Nordheim
-- **Weingut Zehnthof Luckert**: Traditional winery in Sulzfeld
+- **Weingut Lother**: 3rd generation family business with over 600 awards
+  - *Birkenstr. 3, Tel: 09384/8802041*
+  - *5x district honorary prize for best wine of year*
+  - *Website: weingut-lother.de*
 
 #### Wine Tastings & Tours
 - **Vineyard walks**: Guided tours through the vine slopes
