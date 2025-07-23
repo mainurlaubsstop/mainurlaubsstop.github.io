@@ -166,7 +166,7 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
 Hier finden Sie uns in Wipfeld am Main:
 
 <iframe 
-  src="https://www.openstreetmap.org/export/embed.html?bbox=10.165,49.920,10.180,49.925&layer=mapnik&marker=49.92239,10.17097" 
+  src="https://www.openstreetmap.org/export/embed.html?bbox=10.175,49.919,10.183,49.925&layer=mapnik&marker=49.921739,10.178852" 
   width="100%" 
   height="400" 
   frameborder="0" 
@@ -175,7 +175,7 @@ Hier finden Sie uns in Wipfeld am Main:
 
 **Adresse:** An der Mainfähre, 97537 Wipfeld am Main
 
-[📍 Größere Karte anzeigen](https://www.openstreetmap.org/?mlat=49.92239&mlon=10.17097&zoom=16)
+[📍 Größere Karte anzeigen](https://www.openstreetmap.org/search?lat=49.921739&lon=10.178852&zoom=19#map=19/49.921739/10.178852)
 
 ## Jetzt buchen
 

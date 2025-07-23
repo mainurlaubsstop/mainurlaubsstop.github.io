@@ -166,7 +166,7 @@ Wipfeld is known for its spectacular stork's nest, which you can observe directl
 Here you can find us in Wipfeld on the Main:
 
 <iframe 
-  src="https://www.openstreetmap.org/export/embed.html?bbox=10.165,49.920,10.180,49.925&layer=mapnik&marker=49.92239,10.17097" 
+  src="https://www.openstreetmap.org/export/embed.html?bbox=10.175,49.919,10.183,49.925&layer=mapnik&marker=49.921739,10.178852" 
   width="100%" 
   height="400" 
   frameborder="0" 
@@ -175,7 +175,7 @@ Here you can find us in Wipfeld on the Main:
 
 **Address:** An der Mainfähre, 97537 Wipfeld on the Main
 
-[📍 View larger map](https://www.openstreetmap.org/?mlat=49.92239&mlon=10.17097&zoom=16)
+[📍 View larger map](https://www.openstreetmap.org/search?lat=49.921739&lon=10.178852&zoom=19#map=19/49.921739/10.178852)
 
 ## Book Now
 
