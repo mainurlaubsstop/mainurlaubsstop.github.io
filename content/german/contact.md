@@ -90,12 +90,6 @@ Wir sind eine einheimische Familie und kennen die Region wie unsere Westentasche
 - **Check-out**: Bis 11:00 Uhr
 - **Notfall-Kontakt**: 24/7 verfügbar
 
-## Social Media
-
-Folgen Sie uns für aktuelle Bilder und Neuigkeiten:
-
-- **Instagram**: @mainurlaubsstop
-- **Facebook**: MainUrlaubsStop Wipfeld
 
 ## Feedback & Bewertungen
 

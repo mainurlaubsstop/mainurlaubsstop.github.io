@@ -65,7 +65,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 keywords = ["Ferienwohnung", "Wipfeld", "Main", "Urlaub", "Franken", "Weinregion"]
 description = "MainUrlaubsStop - Ihre gemütliche Ferienwohnung in Wipfeld am Main. Perfekt für einen erholsamen Urlaub mit Blick auf das Storchennest."
 author = "MainUrlaubsStop"
-twitter = "zeon_studio"
+twitter = ""
 image = "images/og-image.png"
 
 

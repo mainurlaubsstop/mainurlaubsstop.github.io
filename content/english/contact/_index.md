@@ -90,12 +90,6 @@ We are a local family and know the region like the back of our hand. We are happ
 - **Check-out**: Until 11:00 AM
 - **Emergency contact**: 24/7 available
 
-## Social Media
-
-Follow us for current pictures and news:
-
-- **Instagram**: @mainurlaubsstop
-- **Facebook**: MainUrlaubsStop Wipfeld
 
 ## Feedback & Reviews
 
