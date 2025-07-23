@@ -46,7 +46,6 @@ features:
       - "Quick booking via WhatsApp or email"
       - "Personal service from local hosts"
       - "Fair prices with no hidden costs"
-      - "Flexible cancellation up to 14 days before arrival"
     button:
       enable: true
       label: "Book Now"

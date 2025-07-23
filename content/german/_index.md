@@ -46,7 +46,6 @@ features:
       - "Schnelle Buchung über WhatsApp oder E-Mail"
       - "Persönlicher Service von einheimischen Gastgebern"
       - "Faire Preise ohne versteckte Kosten"
-      - "Flexible Stornierung bis 14 Tage vor Anreise"
     button:
       enable: true
       label: "Jetzt buchen"
