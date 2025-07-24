@@ -48,19 +48,19 @@ jobs:
             
             # Check if this is first run (no existing calendar data)
             FIRST_RUN=false
-            if [ ! -f data/booking-calendar.json ]; then
+            if [ ! -f data/booking_calendar.json ]; then
               echo "First run detected - calendar data file doesn't exist"
               FIRST_RUN=true
             fi
             
-            # Convert iCal to JSON using Node.js script
-            node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking-calendar.json
+            # Convert iCal to JSON using Node.js script (use underscore for Hugo compatibility)
+            node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking_calendar.json
             
             # Check if calendar data has changed (always build on first run)
             if [ "$FIRST_RUN" = true ]; then
               echo "First run: calendar data created, triggering build"
               echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
-            elif git diff --quiet data/booking-calendar.json; then
+            elif git diff --quiet data/booking_calendar.json; then
               echo "Calendar data unchanged, skipping build"
               echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
             else
@@ -96,6 +96,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/booking-calendar.json
+          git add data/booking_calendar.json
           git commit -m "Update booking calendar data [skip ci]" || exit 0
           git push
