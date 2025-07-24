@@ -71,7 +71,7 @@
 
     {{/* Hidden data for JavaScript */}}
     <script type="application/json" id="calendar-data">
-      {{- $calendarData | jsonify -}}
+      {{ $calendarData | jsonify | safeJS }}
     </script>
     <script type="application/json" id="calendar-config">
       {
@@ -121,11 +121,8 @@
 </div>
 
 {{/* Load FullCalendar CSS and JS */}}
-<link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/main.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.10/main.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/main.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.10/main.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/locales/de.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
