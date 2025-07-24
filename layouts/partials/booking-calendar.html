@@ -134,20 +134,45 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // Convert booking events to FullCalendar format  
-  const events = calendarData.events.map(event => ({
-    title: config.texts.booked,
-    start: event.start,
-    end: event.end,
-    backgroundColor: '#fee2e2',
-    borderColor: '#f87171',
-    textColor: '#dc2626',
-    allDay: true
-  }));
+  // Process and deduplicate booking events
+  const processedEvents = [];
+  const bookedDates = new Set();
   
-  // Debug: Log some events to check data
-  console.log('Calendar events loaded:', events.length);
-  console.log('Sample events:', events.slice(0, 3));
+  calendarData.events.forEach(event => {
+    // Add each day in the booking range (excluding end date)
+    const startDate = new Date(event.start);
+    const endDate = new Date(event.end);
+    
+    let currentDate = new Date(startDate);
+    while (currentDate < endDate) {
+      const dateStr = currentDate.toISOString().split('T')[0];
+      
+      // Skip if we already have this date marked as booked
+      if (!bookedDates.has(dateStr)) {
+        bookedDates.add(dateStr);
+        
+        // Create event for this specific day
+        const nextDay = new Date(currentDate);
+        nextDay.setDate(nextDay.getDate() + 1);
+        
+        processedEvents.push({
+          title: config.texts.booked,
+          start: dateStr,
+          end: nextDay.toISOString().split('T')[0],
+          backgroundColor: '#fee2e2',
+          borderColor: '#f87171',
+          textColor: '#dc2626',
+          allDay: true
+        });
+      }
+      
+      currentDate.setDate(currentDate.getDate() + 1);
+    }
+  });
+  
+  // Debug: Log processed events
+  console.log('Calendar events processed:', processedEvents.length);
+  console.log('Unique booked dates:', bookedDates.size);
 
   const calendarEl = document.getElementById('fullcalendar');
   const calendar = new FullCalendar.Calendar(calendarEl, {
@@ -166,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
     height: 'auto',
     firstDay: 1, // Monday
     weekNumbers: false,
-    events: events,
+    events: processedEvents,
     eventDisplay: 'block',
     
     // Styling for available days
@@ -174,13 +199,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const dateStr = info.date.toISOString().split('T')[0];
       const today = new Date().toISOString().split('T')[0];
       
-      // Check if day is booked (end date is exclusive in iCal format)
-      const isBooked = events.some(event => {
-        const eventStart = event.start;
-        const eventEnd = event.end;
-        
-        return dateStr >= eventStart && dateStr < eventEnd;
-      });
+      // Check if day is booked using our processed booked dates set
+      const isBooked = bookedDates.has(dateStr);
       
       // Style the cell
       if (dateStr < today) {
@@ -219,10 +239,8 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (clickedDate < today) return; // Ignore past dates
       
-      // Check if date is available (end date is exclusive)
-      const isBooked = events.some(event => {
-        return clickedDate >= event.start && clickedDate < event.end;
-      });
+      // Check if date is available using our processed booked dates
+      const isBooked = bookedDates.has(clickedDate);
       
       if (!isBooked) {
         // Available date clicked - open WhatsApp with pre-filled date
