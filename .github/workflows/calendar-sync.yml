@@ -72,13 +72,21 @@ jobs:
             echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
           fi
 
-      - name: Build Hugo site
-        if: env.CALENDAR_CHANGED == 'true'
-        run: npm run build
-
       - name: Setup Pages
         if: env.CALENDAR_CHANGED == 'true'
+        id: pages
         uses: actions/configure-pages@v5
+
+      - name: Build Hugo site
+        if: env.CALENDAR_CHANGED == 'true'
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         if: env.CALENDAR_CHANGED == 'true'
