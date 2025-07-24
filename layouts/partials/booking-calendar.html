@@ -134,45 +134,48 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // Process and deduplicate booking events
-  const processedEvents = [];
+  // Process booking events - simpler approach
   const bookedDates = new Set();
+  const processedEvents = [];
   
+  // First pass: collect all booked dates (excluding end dates)
   calendarData.events.forEach(event => {
-    // Add each day in the booking range (excluding end date)
     const startDate = new Date(event.start);
     const endDate = new Date(event.end);
     
     let currentDate = new Date(startDate);
     while (currentDate < endDate) {
       const dateStr = currentDate.toISOString().split('T')[0];
-      
-      // Skip if we already have this date marked as booked
-      if (!bookedDates.has(dateStr)) {
-        bookedDates.add(dateStr);
-        
-        // Create event for this specific day
-        const nextDay = new Date(currentDate);
-        nextDay.setDate(nextDay.getDate() + 1);
-        
-        processedEvents.push({
-          title: config.texts.booked,
-          start: dateStr,
-          end: nextDay.toISOString().split('T')[0],
-          backgroundColor: '#fee2e2',
-          borderColor: '#f87171',
-          textColor: '#dc2626',
-          allDay: true
-        });
-      }
-      
+      bookedDates.add(dateStr);
       currentDate.setDate(currentDate.getDate() + 1);
     }
+  });
+  
+  // Second pass: create events only for unique booked dates
+  const sortedBookedDates = Array.from(bookedDates).sort();
+  sortedBookedDates.forEach(dateStr => {
+    const nextDay = new Date(dateStr);
+    nextDay.setDate(nextDay.getDate() + 1);
+    const nextDayStr = nextDay.toISOString().split('T')[0];
+    
+    processedEvents.push({
+      title: config.texts.booked,
+      start: dateStr,
+      end: nextDayStr,
+      backgroundColor: '#fee2e2',
+      borderColor: '#f87171',
+      textColor: '#dc2626',
+      allDay: true
+    });
   });
   
   // Debug: Log processed events
   console.log('Calendar events processed:', processedEvents.length);
   console.log('Unique booked dates:', bookedDates.size);
+  console.log('August 15-18 booked status:', [15,16,17,18].map(day => {
+    const date = `2025-08-${day.toString().padStart(2, '0')}`;
+    return `${date}: ${bookedDates.has(date) ? 'BOOKED' : 'FREE'}`;
+  }));
 
   const calendarEl = document.getElementById('fullcalendar');
   const calendar = new FullCalendar.Calendar(calendarEl, {
@@ -202,20 +205,34 @@ document.addEventListener('DOMContentLoaded', function() {
       // Check if day is booked using our processed booked dates set
       const isBooked = bookedDates.has(dateStr);
       
-      // Style the cell
+      // Debug logging for July 30th
+      if (dateStr === '2025-07-30') {
+        console.log(`July 30th debug: isBooked=${isBooked}, bookedDates has it:`, bookedDates.has(dateStr));
+        console.log('All booked dates:', Array.from(bookedDates).sort());
+        console.log('Events covering July 30:', processedEvents.filter(e => e.start <= '2025-07-30' && e.end > '2025-07-30'));
+        console.log('Cell element classes:', info.el.className);
+        console.log('Cell element styles before:', info.el.style.cssText);
+      }
+      
+      // Style the cell - IMPORTANT: Set !important to override FullCalendar
       if (dateStr < today) {
         // Past dates
-        info.el.style.backgroundColor = '#f3f4f6';
+        info.el.style.setProperty('background-color', '#f3f4f6', 'important');
         info.el.style.color = '#9ca3af';
       } else if (isBooked) {
-        // Booked dates - will be styled by FullCalendar events, but ensure styling
-        info.el.style.backgroundColor = '#fee2e2';
-        info.el.style.borderColor = '#f87171';
+        // Booked dates - force red styling
+        info.el.style.setProperty('background-color', '#fee2e2', 'important');
+        info.el.style.setProperty('border-color', '#f87171', 'important');
       } else {
-        // Available dates (future dates that are not booked)
-        info.el.style.backgroundColor = '#dcfce7';
-        info.el.style.borderColor = '#4ade80';
+        // Available dates - force green styling
+        info.el.style.setProperty('background-color', '#dcfce7', 'important');
+        info.el.style.setProperty('border-color', '#4ade80', 'important');
         info.el.classList.add('available-day');
+        
+        // Debug for July 30th
+        if (dateStr === '2025-07-30') {
+          console.log('July 30th styles after setting:', info.el.style.cssText);
+        }
       }
       
       // Ensure all cells have proper styling
@@ -230,6 +247,49 @@ document.addEventListener('DOMContentLoaded', function() {
           info.el.classList.add('available-day');
         }
       }
+    },
+    
+    // Apply styling after all events are rendered
+    eventDidMount: function(info) {
+      // This runs after events are rendered, but we don't want to change events
+    },
+    
+    // Use datesSet to apply styling every time the view changes (month navigation)
+    datesSet: function(info) {
+      // Re-apply our styling whenever dates are rendered (including navigation)
+      setTimeout(() => {
+        const cells = document.querySelectorAll('.fc-daygrid-day');
+        const today = new Date().toISOString().split('T')[0];
+        
+        console.log(`Applying styles for ${cells.length} cells in current view`);
+        
+        cells.forEach(cell => {
+          const dateStr = cell.getAttribute('data-date');
+          if (!dateStr) return;
+          
+          const isBooked = bookedDates.has(dateStr);
+          
+          if (dateStr < today) {
+            // Past dates
+            cell.style.setProperty('background-color', '#f3f4f6', 'important');
+            cell.style.color = '#9ca3af';
+          } else if (isBooked) {
+            // Booked dates
+            cell.style.setProperty('background-color', '#fee2e2', 'important');
+            cell.style.setProperty('border-color', '#f87171', 'important');
+          } else {
+            // Available dates
+            cell.style.setProperty('background-color', '#dcfce7', 'important');
+            cell.style.setProperty('border-color', '#4ade80', 'important');
+            cell.classList.add('available-day');
+          }
+          
+          // Debug for specific dates
+          if (['2025-07-30', '2025-08-15', '2025-08-16', '2025-08-17', '2025-08-18'].includes(dateStr)) {
+            console.log(`${dateStr} styled in datesSet: ${isBooked ? 'BOOKED' : 'FREE'}, style:`, cell.style.cssText);
+          }
+        });
+      }, 100); // Small delay to ensure all rendering is complete
     },
     
     // Handle day clicks

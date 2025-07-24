@@ -19,9 +19,8 @@ function convertICalToJSON(icalPath, outputPath) {
     // Sort events by start date
     events.sort((a, b) => new Date(a.start) - new Date(b.start));
     
-    // Create output object
+    // Create output object (without timestamp to allow proper change detection)
     const calendarData = {
-      lastUpdated: new Date().toISOString(),
       events: events,
       summary: {
         totalEvents: events.length,
@@ -30,17 +29,37 @@ function convertICalToJSON(icalPath, outputPath) {
       }
     };
     
-    // Ensure output directory exists
-    const outputDir = path.dirname(outputPath);
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
+    // Only add timestamp after we check for changes
+    const tempFile = outputPath + '.tmp';
+    fs.writeFileSync(tempFile, JSON.stringify(calendarData, null, 2));
+    
+    // Check if content actually changed (excluding timestamp)
+    let hasChanged = true;
+    if (fs.existsSync(outputPath)) {
+      try {
+        const existingData = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+        delete existingData.lastUpdated; // Remove timestamp for comparison
+        
+        hasChanged = JSON.stringify(existingData) !== JSON.stringify(calendarData);
+      } catch (e) {
+        // If we can't read/parse existing file, assume it changed
+        hasChanged = true;
+      }
     }
     
-    // Write JSON file
+    // Add timestamp and write final file
+    calendarData.lastUpdated = new Date().toISOString();
     fs.writeFileSync(outputPath, JSON.stringify(calendarData, null, 2));
+    fs.unlinkSync(tempFile);
     
     console.log(`Successfully converted iCal to JSON: ${events.length} events found`);
+    console.log(`Content ${hasChanged ? 'CHANGED' : 'UNCHANGED'} - ${hasChanged ? 'will trigger build' : 'no build needed'}`);
     console.log(`Output written to: ${outputPath}`);
+    
+    // Exit with code 1 if no changes (so GitHub Action can detect this)
+    if (!hasChanged) {
+      process.exit(1);
+    }
     
   } catch (error) {
     console.error('Error converting iCal to JSON:', error.message);

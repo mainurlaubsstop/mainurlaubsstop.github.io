@@ -54,17 +54,18 @@ jobs:
             fi
             
             # Convert iCal to JSON using Node.js script (use underscore for Hugo compatibility)
-            node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking_calendar.json
-            
-            # Check if calendar data has changed (always build on first run)
-            if [ "$FIRST_RUN" = true ]; then
-              echo "First run: calendar data created, triggering build"
+            # Script exits with code 1 if no changes detected
+            if node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking_calendar.json; then
+              echo "Calendar data changed, triggering build"
               echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
-            elif git diff --quiet data/booking_calendar.json; then
+            else
               echo "Calendar data unchanged, skipping build"
               echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
-            else
-              echo "Calendar data changed, triggering build"
+            fi
+            
+            # Always build on first run
+            if [ "$FIRST_RUN" = true ]; then
+              echo "First run: overriding to trigger build"
               echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
             fi
           else
