@@ -15,7 +15,6 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 ### Übernachtungspreise
 - **2 Personen**: 95€ pro Nacht
 - **1 Person**: 90€ pro Nacht
-- **Mindestaufenthalt**: 2 Nächte
 - **Wochenpreis**: 630€ (7 Nächte, 2 Personen)
 - **Endreinigung**: Inklusive
 - **Bettwäsche & Handtücher**: Inklusive
@@ -33,7 +32,6 @@ Buchen Sie Ihren Traumurlaub in unserer gemütlichen Ferienwohnung in Wipfeld am
 - **2 Personen**: 95€ pro Nacht
 - **1 Person**: 90€ pro Nacht
 - **Wochenpreis**: 630€ (7 Nächte, 2 Personen)
-- **Mindestaufenthalt**: 2 Nächte
 - **Auch an Feiertagen und während der Weinfeste**: Gleiche Preise
 
 ## Buchungsablauf

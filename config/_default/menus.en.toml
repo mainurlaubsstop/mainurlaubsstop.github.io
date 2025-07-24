@@ -22,14 +22,19 @@ url = "/location"
 weight = 4
 
 [[main]]
+name = "Availability"
+url = "/availability"
+weight = 5
+
+[[main]]
 name = "Booking"
 url = "/booking"
-weight = 5
+weight = 6
 
 [[main]]
 name = "Contact"
 url = "/contact/"
-weight = 6
+weight = 7
 
 # footer menu
 [[footer]]

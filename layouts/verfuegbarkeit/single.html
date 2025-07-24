@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center lg:col-10">
+          <div class="content">
+            {{ .Content }}
+            
+            {{/* Insert booking calendar here */}}
+            {{ partial "booking-calendar.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

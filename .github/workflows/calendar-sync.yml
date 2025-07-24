@@ -1,0 +1,92 @@
+name: Sync Booking Calendar
+
+on:
+  schedule:
+    # Runs every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync-calendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.148.1'
+          extended: true
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch Booking.com calendar
+        env:
+          BOOKING_CALENDAR_URL: ${{ secrets.BOOKING_CALENDAR_URL }}
+        run: |
+          # Create data directory if it doesn't exist
+          mkdir -p data
+          
+          # Fetch the iCal calendar from Booking.com
+          if [ -n "$BOOKING_CALENDAR_URL" ]; then
+            echo "Fetching calendar from Booking.com..."
+            curl -s -o /tmp/booking-calendar.ics "$BOOKING_CALENDAR_URL"
+            
+            # Convert iCal to JSON using Node.js script
+            node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking-calendar.json
+            
+            # Check if calendar data has changed
+            if git diff --quiet data/booking-calendar.json; then
+              echo "Calendar data unchanged, skipping build"
+              echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
+            else
+              echo "Calendar data changed, triggering build"
+              echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
+            fi
+          else
+            echo "No calendar URL configured"
+            echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Build Hugo site
+        if: env.CALENDAR_CHANGED == 'true'
+        run: npm run build
+
+      - name: Setup Pages
+        if: env.CALENDAR_CHANGED == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: env.CALENDAR_CHANGED == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        if: env.CALENDAR_CHANGED == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Commit calendar data changes
+        if: env.CALENDAR_CHANGED == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/booking-calendar.json
+          git commit -m "Update booking calendar data [skip ci]" || exit 0
+          git push
