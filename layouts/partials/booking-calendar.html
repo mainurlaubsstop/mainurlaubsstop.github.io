@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return;
   }
 
-  // Convert booking events to FullCalendar format
+  // Convert booking events to FullCalendar format  
   const events = calendarData.events.map(event => ({
     title: config.texts.booked,
     start: event.start,
@@ -144,6 +144,10 @@ document.addEventListener('DOMContentLoaded', function() {
     textColor: '#dc2626',
     allDay: true
   }));
+  
+  // Debug: Log some events to check data
+  console.log('Calendar events loaded:', events.length);
+  console.log('Sample events:', events.slice(0, 3));
 
   const calendarEl = document.getElementById('fullcalendar');
   const calendar = new FullCalendar.Calendar(calendarEl, {
@@ -170,14 +174,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const dateStr = info.date.toISOString().split('T')[0];
       const today = new Date().toISOString().split('T')[0];
       
-      // Check if day is booked
+      // Check if day is booked (end date is exclusive in iCal format)
       const isBooked = events.some(event => {
-        const eventStart = new Date(event.start).toISOString().split('T')[0];
-        const eventEnd = new Date(event.end);
-        eventEnd.setDate(eventEnd.getDate() - 1); // Adjust for exclusive end date
-        const eventEndStr = eventEnd.toISOString().split('T')[0];
+        const eventStart = event.start;
+        const eventEnd = event.end;
         
-        return dateStr >= eventStart && dateStr <= eventEndStr;
+        return dateStr >= eventStart && dateStr < eventEnd;
       });
       
       // Style the cell
@@ -186,12 +188,27 @@ document.addEventListener('DOMContentLoaded', function() {
         info.el.style.backgroundColor = '#f3f4f6';
         info.el.style.color = '#9ca3af';
       } else if (isBooked) {
-        // Already handled by event styling
+        // Booked dates - will be styled by FullCalendar events, but ensure styling
+        info.el.style.backgroundColor = '#fee2e2';
+        info.el.style.borderColor = '#f87171';
       } else {
-        // Available dates
+        // Available dates (future dates that are not booked)
         info.el.style.backgroundColor = '#dcfce7';
         info.el.style.borderColor = '#4ade80';
         info.el.classList.add('available-day');
+      }
+      
+      // Ensure all cells have proper styling
+      if (!info.el.style.backgroundColor) {
+        // Fallback for any unhandled dates
+        if (dateStr < today) {
+          info.el.style.backgroundColor = '#f3f4f6';
+          info.el.style.color = '#9ca3af';
+        } else {
+          info.el.style.backgroundColor = '#dcfce7';
+          info.el.style.borderColor = '#4ade80';
+          info.el.classList.add('available-day');
+        }
       }
     },
     
@@ -202,14 +219,9 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (clickedDate < today) return; // Ignore past dates
       
-      // Check if date is available
+      // Check if date is available (end date is exclusive)
       const isBooked = events.some(event => {
-        const eventStart = new Date(event.start).toISOString().split('T')[0];
-        const eventEnd = new Date(event.end);
-        eventEnd.setDate(eventEnd.getDate() - 1);
-        const eventEndStr = eventEnd.toISOString().split('T')[0];
-        
-        return clickedDate >= eventStart && clickedDate <= eventEndStr;
+        return clickedDate >= event.start && clickedDate < event.end;
       });
       
       if (!isBooked) {
