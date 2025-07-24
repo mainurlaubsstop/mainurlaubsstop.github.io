@@ -46,11 +46,21 @@ jobs:
             echo "Fetching calendar from Booking.com..."
             curl -s -o /tmp/booking-calendar.ics "$BOOKING_CALENDAR_URL"
             
+            # Check if this is first run (no existing calendar data)
+            FIRST_RUN=false
+            if [ ! -f data/booking-calendar.json ]; then
+              echo "First run detected - calendar data file doesn't exist"
+              FIRST_RUN=true
+            fi
+            
             # Convert iCal to JSON using Node.js script
             node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking-calendar.json
             
-            # Check if calendar data has changed
-            if git diff --quiet data/booking-calendar.json; then
+            # Check if calendar data has changed (always build on first run)
+            if [ "$FIRST_RUN" = true ]; then
+              echo "First run: calendar data created, triggering build"
+              echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
+            elif git diff --quiet data/booking-calendar.json; then
               echo "Calendar data unchanged, skipping build"
               echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
             else
