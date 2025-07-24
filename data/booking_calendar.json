@@ -146,11 +146,11 @@
     },
     {
       "start": "2026-12-01",
-      "end": "2027-01-24",
+      "end": "2027-01-25",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "isBookingCom": true,
-      "duration": 54
+      "duration": 55
     }
   ],
   "summary": {
@@ -158,5 +158,5 @@
     "bookedDays": 19,
     "nextAvailableDate": "2025-07-30"
   },
-  "lastUpdated": "2025-07-24T07:56:45.328Z"
+  "lastUpdated": "2025-07-24T22:18:22.092Z"
 }
