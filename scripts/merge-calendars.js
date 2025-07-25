@@ -56,14 +56,23 @@ function mergeCalendars(primaryPath, secondaryPath, outputPath) {
       }
     }
     
-    // Add timestamp and write final file
-    mergedData.lastUpdated = new Date().toISOString();
-    fs.writeFileSync(outputPath, JSON.stringify(mergedData, null, 2));
+    // Only add timestamp and write file if content changed
+    if (hasChanged) {
+      mergedData.lastUpdated = new Date().toISOString();
+      fs.writeFileSync(outputPath, JSON.stringify(mergedData, null, 2));
+    } else {
+      // Keep existing file with original timestamp
+      // No need to write anything
+    }
     
     console.log(`Successfully merged calendars: ${uniqueEvents.length} total events`);
     console.log(`Removed ${allEvents.length - uniqueEvents.length} duplicate events`);
     console.log(`Content ${hasChanged ? 'CHANGED' : 'UNCHANGED'} - ${hasChanged ? 'will trigger build' : 'no build needed'}`);
-    console.log(`Output written to: ${outputPath}`);
+    if (hasChanged) {
+      console.log(`Output written to: ${outputPath}`);
+    } else {
+      console.log(`No changes detected, keeping existing file: ${outputPath}`);
+    }
     
     // Exit with code 1 if no changes (so GitHub Action can detect this)
     if (!hasChanged) {

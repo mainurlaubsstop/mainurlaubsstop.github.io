@@ -48,14 +48,23 @@ function convertICalToJSON(icalPath, outputPath, source = 'booking_com') {
       }
     }
     
-    // Add timestamp and write final file
-    calendarData.lastUpdated = new Date().toISOString();
-    fs.writeFileSync(outputPath, JSON.stringify(calendarData, null, 2));
+    // Only add timestamp and write file if content changed
+    if (hasChanged) {
+      calendarData.lastUpdated = new Date().toISOString();
+      fs.writeFileSync(outputPath, JSON.stringify(calendarData, null, 2));
+    } else {
+      // Keep existing file with original timestamp
+      // No need to write anything
+    }
     fs.unlinkSync(tempFile);
     
     console.log(`Successfully converted iCal to JSON: ${events.length} events found`);
     console.log(`Content ${hasChanged ? 'CHANGED' : 'UNCHANGED'} - ${hasChanged ? 'will trigger build' : 'no build needed'}`);
-    console.log(`Output written to: ${outputPath}`);
+    if (hasChanged) {
+      console.log(`Output written to: ${outputPath}`);
+    } else {
+      console.log(`No changes detected, keeping existing file: ${outputPath}`);
+    }
     
     // Exit with code 1 if no changes (so GitHub Action can detect this)
     if (!hasChanged) {
