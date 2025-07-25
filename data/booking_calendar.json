@@ -61,6 +61,16 @@
       "duration": 1
     },
     {
+      "start": "2025-07-30",
+      "end": "2025-07-31",
+      "summary": "Direktbuchung MainUrlaubsStop",
+      "status": "booked",
+      "source": "booking_server",
+      "isBookingCom": false,
+      "isBookingServer": true,
+      "duration": 1
+    },
+    {
       "start": "2025-08-02",
       "end": "2025-08-03",
       "summary": "CLOSED - Not available",
@@ -78,6 +88,16 @@
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
+      "duration": 1
+    },
+    {
+      "start": "2025-08-09",
+      "end": "2025-08-10",
+      "summary": "Direktbuchung MainUrlaubsStop",
+      "status": "booked",
+      "source": "booking_server",
+      "isBookingCom": false,
+      "isBookingServer": true,
       "duration": 1
     },
     {
@@ -151,6 +171,16 @@
       "duration": 1
     },
     {
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "summary": "Direktbuchung MainUrlaubsStop",
+      "status": "booked",
+      "source": "booking_server",
+      "isBookingCom": false,
+      "isBookingServer": true,
+      "duration": 1
+    },
+    {
       "start": "2026-05-11",
       "end": "2026-05-17",
       "summary": "CLOSED - Not available",
@@ -182,14 +212,14 @@
     }
   ],
   "summary": {
-    "totalEvents": 18,
-    "bookedDays": 18,
-    "nextAvailableDate": "2025-07-30",
+    "totalEvents": 21,
+    "bookedDays": 21,
+    "nextAvailableDate": "2025-07-31",
     "sources": {
       "primary": 20,
-      "secondary": 0,
-      "merged": 18
+      "secondary": 4,
+      "merged": 21
     }
   },
-  "lastUpdated": "2025-07-25T08:03:37.634Z"
+  "lastUpdated": "2025-07-25T08:07:13.203Z"
 }
