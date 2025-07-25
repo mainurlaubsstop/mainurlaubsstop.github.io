@@ -37,7 +37,7 @@ jobs:
       - name: Fetch booking calendars
         env:
           BOOKING_CALENDAR_URL: ${{ secrets.BOOKING_CALENDAR_URL }}
-          BOOKING_SERVER_CALENDAR_URL: https://booking.mainurlaubsstop.de/calender.ics
+          BOOKING_SERVER_CALENDAR_URL: https://booking.mainurlaubsstop.de/calendar.ics
         run: |
           # Create data directory if it doesn't exist
           mkdir -p data
