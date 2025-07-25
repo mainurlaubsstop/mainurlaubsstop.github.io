@@ -113,6 +113,14 @@
       "duration": 1
     },
     {
+      "start": "2025-09-04",
+      "end": "2025-09-05",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "isBookingCom": true,
+      "duration": 1
+    },
+    {
       "start": "2025-09-06",
       "end": "2025-09-07",
       "summary": "CLOSED - Not available",
@@ -154,9 +162,9 @@
     }
   ],
   "summary": {
-    "totalEvents": 19,
-    "bookedDays": 19,
+    "totalEvents": 20,
+    "bookedDays": 20,
     "nextAvailableDate": "2025-07-30"
   },
-  "lastUpdated": "2025-07-24T22:18:22.092Z"
+  "lastUpdated": "2025-07-25T05:16:11.735Z"
 }
