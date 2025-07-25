@@ -5,7 +5,9 @@
       "end": "2025-07-25",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -13,15 +15,9 @@
       "end": "2025-07-26",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
-      "duration": 1
-    },
-    {
-      "start": "2025-07-25",
-      "end": "2025-07-26",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -29,7 +25,9 @@
       "end": "2025-07-27",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -37,7 +35,9 @@
       "end": "2025-07-28",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -45,7 +45,9 @@
       "end": "2025-07-29",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -53,7 +55,9 @@
       "end": "2025-07-30",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -61,7 +65,9 @@
       "end": "2025-08-03",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -69,7 +75,9 @@
       "end": "2025-08-04",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -77,7 +85,9 @@
       "end": "2025-08-16",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -85,7 +95,9 @@
       "end": "2025-08-17",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -93,7 +105,9 @@
       "end": "2025-08-18",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 2
     },
     {
@@ -101,7 +115,9 @@
       "end": "2025-08-18",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -109,7 +125,9 @@
       "end": "2025-08-31",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -117,7 +135,9 @@
       "end": "2025-09-05",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -125,7 +145,9 @@
       "end": "2025-09-07",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -133,15 +155,9 @@
       "end": "2026-05-17",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
-      "duration": 6
-    },
-    {
-      "start": "2026-05-11",
-      "end": "2026-05-17",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 6
     },
     {
@@ -149,7 +165,9 @@
       "end": "2026-06-14",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 1
     },
     {
@@ -157,14 +175,21 @@
       "end": "2027-01-25",
       "summary": "CLOSED - Not available",
       "status": "booked",
+      "source": "booking_com",
       "isBookingCom": true,
+      "isBookingServer": false,
       "duration": 55
     }
   ],
   "summary": {
-    "totalEvents": 20,
-    "bookedDays": 20,
-    "nextAvailableDate": "2025-07-30"
+    "totalEvents": 18,
+    "bookedDays": 18,
+    "nextAvailableDate": "2025-07-30",
+    "sources": {
+      "primary": 20,
+      "secondary": 0,
+      "merged": 18
+    }
   },
-  "lastUpdated": "2025-07-25T05:16:11.735Z"
+  "lastUpdated": "2025-07-25T07:13:15.485Z"
 }
