@@ -34,44 +34,75 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch Booking.com calendar
+      - name: Fetch booking calendars
         env:
           BOOKING_CALENDAR_URL: ${{ secrets.BOOKING_CALENDAR_URL }}
+          BOOKING_SERVER_CALENDAR_URL: https://booking.mainurlaubsstop.de/calender.ics
         run: |
           # Create data directory if it doesn't exist
           mkdir -p data
+          
+          # Initialize change detection
+          CALENDAR_CHANGED=false
+          
+          # Check if this is first run (no existing calendar data)
+          FIRST_RUN=false
+          if [ ! -f data/booking_calendar.json ]; then
+            echo "First run detected - calendar data file doesn't exist"
+            FIRST_RUN=true
+          fi
           
           # Fetch the iCal calendar from Booking.com
           if [ -n "$BOOKING_CALENDAR_URL" ]; then
             echo "Fetching calendar from Booking.com..."
             curl -s -o /tmp/booking-calendar.ics "$BOOKING_CALENDAR_URL"
             
-            # Check if this is first run (no existing calendar data)
-            FIRST_RUN=false
-            if [ ! -f data/booking_calendar.json ]; then
-              echo "First run detected - calendar data file doesn't exist"
-              FIRST_RUN=true
-            fi
-            
             # Convert iCal to JSON using Node.js script (use underscore for Hugo compatibility)
             # Script exits with code 1 if no changes detected
-            if node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics data/booking_calendar.json; then
-              echo "Calendar data changed, triggering build"
-              echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
+            if node scripts/convert-ical-to-json.js /tmp/booking-calendar.ics /tmp/booking_calendar_primary.json; then
+              echo "Primary calendar data changed"
+              CALENDAR_CHANGED=true
             else
-              echo "Calendar data unchanged, skipping build"
-              echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
-            fi
-            
-            # Always build on first run
-            if [ "$FIRST_RUN" = true ]; then
-              echo "First run: overriding to trigger build"
-              echo "CALENDAR_CHANGED=true" >> $GITHUB_ENV
+              echo "Primary calendar data unchanged"
             fi
           else
-            echo "No calendar URL configured"
-            echo "CALENDAR_CHANGED=false" >> $GITHUB_ENV
+            echo "No primary calendar URL configured, creating empty primary calendar"
+            echo '{"events":[],"summary":{"totalEvents":0,"bookedDays":0,"nextAvailableDate":null}}' > /tmp/booking_calendar_primary.json
           fi
+          
+          # Fetch the second calendar from booking server
+          echo "Fetching calendar from booking server..."
+          if curl -s -o /tmp/booking-server-calendar.ics "$BOOKING_SERVER_CALENDAR_URL"; then
+            echo "Successfully fetched booking server calendar"
+            
+            # Convert second iCal to JSON
+            if node scripts/convert-ical-to-json.js /tmp/booking-server-calendar.ics /tmp/booking_calendar_secondary.json --source="booking_server"; then
+              echo "Secondary calendar data changed"
+              CALENDAR_CHANGED=true
+            else
+              echo "Secondary calendar data unchanged"
+            fi
+          else
+            echo "Failed to fetch booking server calendar, creating empty secondary calendar"
+            echo '{"events":[],"summary":{"totalEvents":0,"bookedDays":0,"nextAvailableDate":null}}' > /tmp/booking_calendar_secondary.json
+          fi
+          
+          # Merge both calendars
+          echo "Merging calendar sources..."
+          if node scripts/merge-calendars.js /tmp/booking_calendar_primary.json /tmp/booking_calendar_secondary.json data/booking_calendar.json; then
+            echo "Calendar merge resulted in changes"
+            CALENDAR_CHANGED=true
+          else
+            echo "Calendar merge resulted in no changes"
+          fi
+          
+          # Always build on first run
+          if [ "$FIRST_RUN" = true ]; then
+            echo "First run: overriding to trigger build"
+            CALENDAR_CHANGED=true
+          fi
+          
+          echo "CALENDAR_CHANGED=$CALENDAR_CHANGED" >> $GITHUB_ENV
 
       - name: Setup Pages
         if: env.CALENDAR_CHANGED == 'true'

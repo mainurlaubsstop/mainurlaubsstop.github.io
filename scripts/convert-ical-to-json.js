@@ -7,14 +7,15 @@ const path = require('path');
  * Converts iCal data to JSON format for Hugo consumption
  * @param {string} icalPath - Path to iCal file
  * @param {string} outputPath - Path to output JSON file
+ * @param {string} source - Source identifier for the calendar
  */
-function convertICalToJSON(icalPath, outputPath) {
+function convertICalToJSON(icalPath, outputPath, source = 'booking_com') {
   try {
     // Read iCal file
     const icalData = fs.readFileSync(icalPath, 'utf8');
     
     // Parse iCal events
-    const events = parseICalEvents(icalData);
+    const events = parseICalEvents(icalData, source);
     
     // Sort events by start date
     events.sort((a, b) => new Date(a.start) - new Date(b.start));
@@ -70,9 +71,10 @@ function convertICalToJSON(icalPath, outputPath) {
 /**
  * Parse iCal events from string data
  * @param {string} icalData - Raw iCal data
+ * @param {string} source - Source identifier for the calendar
  * @returns {Array} Array of event objects
  */
-function parseICalEvents(icalData) {
+function parseICalEvents(icalData, source = 'booking_com') {
   const events = [];
   const lines = icalData.split('\n').map(line => line.trim());
   
@@ -91,7 +93,9 @@ function parseICalEvents(icalData) {
           end: normalizeDate(currentEvent.end),
           summary: currentEvent.summary || 'Gebucht',
           status: 'booked',
-          isBookingCom: true
+          source: source,
+          isBookingCom: source === 'booking_com',
+          isBookingServer: source === 'booking_server'
         };
         
         // Calculate duration in days
@@ -192,13 +196,20 @@ function getNextAvailableDate(events) {
 if (require.main === module) {
   const args = process.argv.slice(2);
   
-  if (args.length !== 2) {
-    console.error('Usage: node convert-ical-to-json.js <input.ics> <output.json>');
+  if (args.length < 2 || args.length > 3) {
+    console.error('Usage: node convert-ical-to-json.js <input.ics> <output.json> [--source=source_name]');
     process.exit(1);
   }
   
   const [inputPath, outputPath] = args;
-  convertICalToJSON(inputPath, outputPath);
+  
+  // Parse source parameter
+  let source = 'booking_com'; // default source
+  if (args.length === 3 && args[2].startsWith('--source=')) {
+    source = args[2].split('=')[1];
+  }
+  
+  convertICalToJSON(inputPath, outputPath, source);
 }
 
 module.exports = { convertICalToJSON, parseICalEvents, normalizeDate };
