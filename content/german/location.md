@@ -97,7 +97,7 @@ Wipfeld ist bekannt für sein spektakuläres Storchennest, das Sie direkt von un
   - *Idyllische Lage mit Mainblick, #1 Restaurant in Wipfeld*
 - **Anker-Stube**: Deutsche und fränkische Küche
   - *Mainstr. 3, Tel: 09384/903790*
-  - *Familienunternehmen mit eigener Metzgerei*
+  - *Familienunternehmen*
 
 #### In Obereisenheim (5 km)
 - **Gasthof Hotel Rose**: Fränkische Küche in familiärer Atmosphäre am Marktplatz

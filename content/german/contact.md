@@ -25,7 +25,7 @@ Haben Sie Fragen zu unserer Ferienwohnung oder möchten Sie buchen? Wir sind ger
 **info@mainurlaubsstop.de**
 
 ### Telefon
-**+49 163 2455504**  
+**+49 1511 1677130**  
 *Montag - Sonntag: 9:00 - 20:00 Uhr*
 
 ## Adresse
@@ -104,7 +104,7 @@ Ihre Meinung ist uns wichtig! Teilen Sie Ihre Erfahrungen:
 
 Für dringende Angelegenheiten während Ihres Aufenthalts:
 
-**Notfall-Handy**: +49 163 2455504  
+**Notfall-Handy**: +49 1511 1677130  
 *24 Stunden erreichbar*
 
 ### Wichtige Nummern vor Ort

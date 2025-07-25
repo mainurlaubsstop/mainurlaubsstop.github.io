@@ -111,7 +111,7 @@ Deutschland
 ## Häufige Fragen
 
 ### Ist die Wohnung barrierefrei?
-Die Wohnung befindet sich im Erdgeschoss, ist aber nicht vollständig barrierefrei ausgestattet.
+Die Wohnung ist nicht vollständig barrierefrei ausgestattet.
 
 ### Gibt es WLAN?
 Ja, kostenloses WLAN ist verfügbar.
@@ -123,7 +123,7 @@ Ja, eine Ladestation ist vorhanden. Abrechnung nach Verbrauch.
 Ja, Haustiere sind nach Absprache kostenlos willkommen.
 
 ### Gibt es Einkaufsmöglichkeiten?
-Bäckerei und Metzgerei sind fußläufig erreichbar, Supermarkt 5 Minuten mit dem Auto.
+Bäckerei ist fußläufig erreichbar, Supermarkt 5 Minuten mit dem Auto.
 
 ## Kontakt für Buchungen
 
@@ -134,7 +134,7 @@ Bäckerei und Metzgerei sind fußläufig erreichbar, Supermarkt 5 Minuten mit de
 **info@mainurlaubsstop.de**
 
 ### Telefon
-**+49 163 2455504**  
+**+49 1511 1677130**  
 (Montag - Sonntag, 9:00 - 20:00 Uhr)
 
 ---
