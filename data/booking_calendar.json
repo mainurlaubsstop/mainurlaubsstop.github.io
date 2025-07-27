@@ -71,6 +71,26 @@
       "duration": 1
     },
     {
+      "start": "2025-08-04",
+      "end": "2025-08-10",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 6
+    },
+    {
+      "start": "2025-08-10",
+      "end": "2025-08-14",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 4
+    },
+    {
       "start": "2025-08-15",
       "end": "2025-08-16",
       "summary": "CLOSED - Not available",
@@ -172,14 +192,14 @@
     }
   ],
   "summary": {
-    "totalEvents": 17,
-    "bookedDays": 17,
+    "totalEvents": 19,
+    "bookedDays": 19,
     "nextAvailableDate": "2025-07-30",
     "sources": {
-      "primary": 18,
+      "primary": 20,
       "secondary": 0,
-      "merged": 17
+      "merged": 19
     }
   },
-  "lastUpdated": "2025-07-27T11:44:54.163Z"
+  "lastUpdated": "2025-07-27T15:32:07.702Z"
 }
