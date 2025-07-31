@@ -164,12 +164,12 @@
   "summary": {
     "totalEvents": 16,
     "bookedDays": 16,
-    "nextAvailableDate": "2025-07-30",
+    "nextAvailableDate": "2025-08-14",
     "sources": {
       "primary": 17,
       "secondary": 0,
       "merged": 16
     }
   },
-  "lastUpdated": "2025-07-30T22:11:09.795Z"
+  "lastUpdated": "2025-07-31T00:58:18.199Z"
 }
