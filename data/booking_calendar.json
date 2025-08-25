@@ -144,12 +144,12 @@
   "summary": {
     "totalEvents": 14,
     "bookedDays": 14,
-    "nextAvailableDate": "2025-08-24",
+    "nextAvailableDate": "2025-08-26",
     "sources": {
       "primary": 15,
       "secondary": 0,
       "merged": 14
     }
   },
-  "lastUpdated": "2025-08-24T22:10:26.143Z"
+  "lastUpdated": "2025-08-25T01:18:02.066Z"
 }
