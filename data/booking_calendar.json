@@ -134,12 +134,12 @@
   "summary": {
     "totalEvents": 13,
     "bookedDays": 13,
-    "nextAvailableDate": "2025-09-05",
+    "nextAvailableDate": "2025-09-12",
     "sources": {
       "primary": 14,
       "secondary": 0,
       "merged": 13
     }
   },
-  "lastUpdated": "2025-09-05T22:16:29.127Z"
+  "lastUpdated": "2025-09-06T01:05:57.341Z"
 }
