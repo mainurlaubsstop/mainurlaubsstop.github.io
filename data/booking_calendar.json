@@ -114,12 +114,12 @@
   "summary": {
     "totalEvents": 11,
     "bookedDays": 11,
-    "nextAvailableDate": "2025-10-01",
+    "nextAvailableDate": "2025-10-02",
     "sources": {
       "primary": 12,
       "secondary": 0,
       "merged": 11
     }
   },
-  "lastUpdated": "2025-10-01T22:08:04.794Z"
+  "lastUpdated": "2025-10-02T00:47:55.676Z"
 }
