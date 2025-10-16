@@ -104,12 +104,12 @@
   "summary": {
     "totalEvents": 10,
     "bookedDays": 10,
-    "nextAvailableDate": "2025-10-15",
+    "nextAvailableDate": "2025-10-17",
     "sources": {
       "primary": 11,
       "secondary": 0,
       "merged": 10
     }
   },
-  "lastUpdated": "2025-10-15T22:11:53.476Z"
+  "lastUpdated": "2025-10-16T00:48:38.852Z"
 }
