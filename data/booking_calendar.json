@@ -92,13 +92,13 @@
     },
     {
       "start": "2026-12-01",
-      "end": "2027-05-10",
+      "end": "2027-05-11",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 160
+      "duration": 161
     }
   ],
   "summary": {
@@ -111,5 +111,5 @@
       "merged": 10
     }
   },
-  "lastUpdated": "2025-11-10T00:53:40.349Z"
+  "lastUpdated": "2025-11-10T23:17:09.491Z"
 }
