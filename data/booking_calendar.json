@@ -86,10 +86,10 @@
     "bookedDays": 8,
     "nextAvailableDate": "2025-12-01",
     "sources": {
-      "primary": 8,
+      "primary": 9,
       "secondary": 0,
       "merged": 8
     }
   },
-  "lastUpdated": "2025-12-01T16:48:01.521Z"
+  "lastUpdated": "2025-12-01T17:26:02.302Z"
 }
