@@ -1,14 +1,95 @@
 {
-  "events": [],
+  "events": [
+    {
+      "start": "2025-12-25",
+      "end": "2025-12-27",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 2
+    },
+    {
+      "start": "2026-02-14",
+      "end": "2026-02-22",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 8
+    },
+    {
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 6
+    },
+    {
+      "start": "2026-06-13",
+      "end": "2026-06-14",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 1
+    },
+    {
+      "start": "2026-06-16",
+      "end": "2026-06-24",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 8
+    },
+    {
+      "start": "2026-07-17",
+      "end": "2026-07-19",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 2
+    },
+    {
+      "start": "2026-07-20",
+      "end": "2026-07-21",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 1
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2027-06-04",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 181
+    }
+  ],
   "summary": {
-    "totalEvents": 0,
-    "bookedDays": 0,
+    "totalEvents": 8,
+    "bookedDays": 8,
     "nextAvailableDate": "2025-12-04",
     "sources": {
-      "primary": 0,
+      "primary": 9,
       "secondary": 0,
-      "merged": 0
+      "merged": 8
     }
   },
-  "lastUpdated": "2025-12-04T16:29:23.917Z"
+  "lastUpdated": "2025-12-04T16:53:55.291Z"
 }
