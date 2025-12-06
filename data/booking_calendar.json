@@ -74,12 +74,12 @@
   "summary": {
     "totalEvents": 7,
     "bookedDays": 7,
-    "nextAvailableDate": "2025-12-05",
+    "nextAvailableDate": "2025-12-06",
     "sources": {
       "primary": 8,
       "secondary": 0,
       "merged": 7
     }
   },
-  "lastUpdated": "2025-12-05T23:18:05.961Z"
+  "lastUpdated": "2025-12-06T00:42:11.092Z"
 }
