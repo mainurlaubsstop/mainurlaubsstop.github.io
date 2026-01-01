@@ -1,26 +1,6 @@
 {
   "events": [
     {
-      "start": "2025-12-30",
-      "end": "2026-01-01",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 2
-    },
-    {
-      "start": "2026-01-01",
-      "end": "2026-01-02",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 1
-    },
-    {
       "start": "2026-02-14",
       "end": "2026-02-22",
       "summary": "CLOSED - Not available",
@@ -72,24 +52,24 @@
     },
     {
       "start": "2027-01-02",
-      "end": "2027-07-01",
+      "end": "2027-07-02",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 180
+      "duration": 181
     }
   ],
   "summary": {
-    "totalEvents": 8,
-    "bookedDays": 8,
-    "nextAvailableDate": "2026-01-02",
+    "totalEvents": 6,
+    "bookedDays": 6,
+    "nextAvailableDate": "2026-01-01",
     "sources": {
-      "primary": 9,
+      "primary": 7,
       "secondary": 0,
-      "merged": 8
+      "merged": 6
     }
   },
-  "lastUpdated": "2026-01-01T03:19:08.710Z"
+  "lastUpdated": "2026-01-01T23:13:57.431Z"
 }
