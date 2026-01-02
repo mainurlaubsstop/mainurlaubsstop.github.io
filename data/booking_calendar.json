@@ -11,16 +11,6 @@
       "duration": 3
     },
     {
-      "start": "2026-02-14",
-      "end": "2026-02-22",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 8
-    },
-    {
       "start": "2026-05-11",
       "end": "2026-05-17",
       "summary": "CLOSED - Not available",
@@ -29,6 +19,16 @@
       "isBookingCom": true,
       "isBookingServer": false,
       "duration": 6
+    },
+    {
+      "start": "2026-06-08",
+      "end": "2026-06-12",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 4
     },
     {
       "start": "2026-06-16",
@@ -81,5 +81,5 @@
       "merged": 7
     }
   },
-  "lastUpdated": "2026-01-02T16:20:18.557Z"
+  "lastUpdated": "2026-01-02T20:47:11.025Z"
 }
