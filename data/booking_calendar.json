@@ -1,14 +1,85 @@
 {
-  "events": [],
+  "events": [
+    {
+      "start": "2026-02-08",
+      "end": "2026-02-09",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 1
+    },
+    {
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 6
+    },
+    {
+      "start": "2026-06-08",
+      "end": "2026-06-12",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 4
+    },
+    {
+      "start": "2026-06-16",
+      "end": "2026-06-24",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 8
+    },
+    {
+      "start": "2026-07-17",
+      "end": "2026-07-19",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 2
+    },
+    {
+      "start": "2026-07-20",
+      "end": "2026-07-21",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 1
+    },
+    {
+      "start": "2027-01-28",
+      "end": "2027-07-27",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 180
+    }
+  ],
   "summary": {
-    "totalEvents": 0,
-    "bookedDays": 0,
+    "totalEvents": 7,
+    "bookedDays": 7,
     "nextAvailableDate": "2026-01-27",
     "sources": {
-      "primary": 0,
+      "primary": 8,
       "secondary": 0,
-      "merged": 0
+      "merged": 7
     }
   },
-  "lastUpdated": "2026-01-27T10:25:04.321Z"
+  "lastUpdated": "2026-01-27T10:52:11.157Z"
 }
