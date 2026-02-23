@@ -32,7 +32,8 @@ jobs:
           extended: true
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm ci --include=optional || npm install --include=optional
 
       - name: Fetch booking calendars
         env:
