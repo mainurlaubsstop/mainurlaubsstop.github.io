@@ -94,12 +94,12 @@
   "summary": {
     "totalEvents": 9,
     "bookedDays": 9,
-    "nextAvailableDate": "2026-03-07",
+    "nextAvailableDate": "2026-03-08",
     "sources": {
       "primary": 10,
       "secondary": 0,
       "merged": 9
     }
   },
-  "lastUpdated": "2026-03-07T23:10:39.497Z"
+  "lastUpdated": "2026-03-08T01:52:51.047Z"
 }
