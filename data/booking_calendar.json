@@ -21,6 +21,16 @@
       "duration": 1
     },
     {
+      "start": "2026-04-05",
+      "end": "2026-04-06",
+      "summary": "CLOSED - Not available",
+      "status": "booked",
+      "source": "booking_com",
+      "isBookingCom": true,
+      "isBookingServer": false,
+      "duration": 1
+    },
+    {
       "start": "2026-04-09",
       "end": "2026-04-12",
       "summary": "CLOSED - Not available",
@@ -112,14 +122,14 @@
     }
   ],
   "summary": {
-    "totalEvents": 11,
-    "bookedDays": 11,
-    "nextAvailableDate": "2026-04-05",
+    "totalEvents": 12,
+    "bookedDays": 12,
+    "nextAvailableDate": "2026-04-06",
     "sources": {
-      "primary": 12,
+      "primary": 13,
       "secondary": 0,
-      "merged": 11
+      "merged": 12
     }
   },
-  "lastUpdated": "2026-04-02T03:45:03.062Z"
+  "lastUpdated": "2026-04-02T11:26:28.946Z"
 }
