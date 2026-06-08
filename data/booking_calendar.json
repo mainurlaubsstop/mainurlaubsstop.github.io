@@ -144,12 +144,12 @@
   "summary": {
     "totalEvents": 14,
     "bookedDays": 14,
-    "nextAvailableDate": "2026-06-07",
+    "nextAvailableDate": "2026-06-14",
     "sources": {
       "primary": 14,
       "secondary": 0,
       "merged": 14
     }
   },
-  "lastUpdated": "2026-06-07T22:52:38.716Z"
+  "lastUpdated": "2026-06-08T02:05:41.180Z"
 }
