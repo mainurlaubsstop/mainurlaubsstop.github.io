@@ -1,34 +1,24 @@
 {
   "events": [
     {
-      "start": "2026-06-16",
+      "start": "2026-06-21",
       "end": "2026-06-24",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 8
+      "duration": 3
     },
     {
       "start": "2026-06-25",
-      "end": "2026-06-27",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 2
-    },
-    {
-      "start": "2026-06-27",
       "end": "2026-06-28",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 1
+      "duration": 3
     },
     {
       "start": "2026-07-04",
@@ -52,33 +42,13 @@
     },
     {
       "start": "2026-07-17",
-      "end": "2026-07-19",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 2
-    },
-    {
-      "start": "2026-07-19",
-      "end": "2026-07-20",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 1
-    },
-    {
-      "start": "2026-07-20",
       "end": "2026-07-21",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 1
+      "duration": 4
     },
     {
       "start": "2026-07-25",
@@ -162,14 +132,14 @@
     }
   ],
   "summary": {
-    "totalEvents": 16,
-    "bookedDays": 16,
+    "totalEvents": 13,
+    "bookedDays": 13,
     "nextAvailableDate": "2026-06-24",
     "sources": {
-      "primary": 16,
+      "primary": 13,
       "secondary": 0,
-      "merged": 16
+      "merged": 13
     }
   },
-  "lastUpdated": "2026-06-21T05:05:56.757Z"
+  "lastUpdated": "2026-06-21T09:00:17.319Z"
 }
