@@ -194,12 +194,12 @@
   "summary": {
     "totalEvents": 19,
     "bookedDays": 19,
-    "nextAvailableDate": "2026-06-28",
+    "nextAvailableDate": "2026-06-30",
     "sources": {
       "primary": 19,
       "secondary": 0,
       "merged": 19
     }
   },
-  "lastUpdated": "2026-06-28T22:13:39.121Z"
+  "lastUpdated": "2026-06-29T01:32:24.005Z"
 }
