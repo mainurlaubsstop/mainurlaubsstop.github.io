@@ -2,23 +2,13 @@
   "events": [
     {
       "start": "2026-07-18",
-      "end": "2026-07-19",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 1
-    },
-    {
-      "start": "2026-07-20",
       "end": "2026-07-21",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 1
+      "duration": 3
     },
     {
       "start": "2026-07-25",
@@ -132,14 +122,14 @@
     }
   ],
   "summary": {
-    "totalEvents": 13,
-    "bookedDays": 13,
-    "nextAvailableDate": "2026-07-19",
+    "totalEvents": 12,
+    "bookedDays": 12,
+    "nextAvailableDate": "2026-07-21",
     "sources": {
-      "primary": 13,
+      "primary": 12,
       "secondary": 0,
-      "merged": 13
+      "merged": 12
     }
   },
-  "lastUpdated": "2026-07-18T02:51:52.502Z"
+  "lastUpdated": "2026-07-18T12:06:24.051Z"
 }
