@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "start": "2026-08-22",
-      "end": "2026-08-23",
-      "summary": "CLOSED - Not available",
-      "status": "booked",
-      "source": "booking_com",
-      "isBookingCom": true,
-      "isBookingServer": false,
-      "duration": 1
-    },
-    {
       "start": "2026-08-25",
       "end": "2026-08-31",
       "summary": "CLOSED - Not available",
@@ -102,24 +92,24 @@
     },
     {
       "start": "2027-08-23",
-      "end": "2028-02-22",
+      "end": "2028-02-23",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 183
+      "duration": 184
     }
   ],
   "summary": {
-    "totalEvents": 11,
-    "bookedDays": 11,
-    "nextAvailableDate": "2026-08-23",
+    "totalEvents": 10,
+    "bookedDays": 10,
+    "nextAvailableDate": "2026-08-22",
     "sources": {
-      "primary": 11,
+      "primary": 10,
       "secondary": 0,
-      "merged": 11
+      "merged": 10
     }
   },
-  "lastUpdated": "2026-08-22T02:50:46.848Z"
+  "lastUpdated": "2026-08-22T22:09:21.315Z"
 }
