@@ -74,12 +74,12 @@
   "summary": {
     "totalEvents": 7,
     "bookedDays": 7,
-    "nextAvailableDate": "2026-10-16",
+    "nextAvailableDate": "2026-10-17",
     "sources": {
       "primary": 7,
       "secondary": 0,
       "merged": 7
     }
   },
-  "lastUpdated": "2026-10-16T23:56:20.505Z"
+  "lastUpdated": "2026-10-17T02:23:24.089Z"
 }
