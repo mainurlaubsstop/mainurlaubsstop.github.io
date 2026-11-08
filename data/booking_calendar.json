@@ -82,24 +82,24 @@
     },
     {
       "start": "2027-11-08",
-      "end": "2028-05-07",
+      "end": "2028-05-08",
       "summary": "CLOSED - Not available",
       "status": "booked",
       "source": "booking_com",
       "isBookingCom": true,
       "isBookingServer": false,
-      "duration": 181
+      "duration": 182
     }
   ],
   "summary": {
     "totalEvents": 9,
     "bookedDays": 9,
-    "nextAvailableDate": "2026-11-07",
+    "nextAvailableDate": "2026-11-08",
     "sources": {
       "primary": 9,
       "secondary": 0,
       "merged": 9
     }
   },
-  "lastUpdated": "2026-11-07T07:46:39.443Z"
+  "lastUpdated": "2026-11-08T01:30:54.232Z"
 }
